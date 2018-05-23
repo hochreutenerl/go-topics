@@ -192,3 +192,12 @@ func min(x, y int) int {
 	}
 	return y
 }
+
+func (l LDA) GetTopics() * Topics {
+	return l.topics
+}
+
+func (l LDA) GetCorpus() * Corpus {
+	return l.corpus
+}
+
